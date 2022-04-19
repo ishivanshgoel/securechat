@@ -104,7 +104,7 @@ window.onload = function (e) {
   });
 
   let privateKey = localStorage.getItem("secret-chat-key");
-  let pubKey = localStorage.removeItem("secret-chat-key-1");
+  let pubKey = localStorage.getItem("secret-chat-key-1");
   if(!privateKey || !pubKey ) alert("Key Pair not found!!");
   document.getElementById("user-account").innerHTML += id
 
