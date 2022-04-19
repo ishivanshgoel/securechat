@@ -2,7 +2,7 @@ console.log("home script attached!!");
 
 let baseUrl = "https://ishivanshgoel.herokuapp.com/";
 
-let signInUrl = "http://127.0.0.1:5500/client/signin.html";
+let signInUrl = window.location.origin + "/client/signin.html";
 
 let chatListContainer = document.getElementById("chatListContainer");
 let chatContainer = document.getElementById("chatMessagesContainer");
