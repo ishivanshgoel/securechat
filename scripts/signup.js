@@ -1,8 +1,8 @@
 console.log("SignUp script attached!");
 let baseUrl = "https://ishivanshgoel.herokuapp.com/";
-let signInUrl = window.location.origin + "/client/signin.html";
+let signInUrl = window.location.origin + "/securechat/signin";
 
-let homeUrl = window.location.origin + "/client/home.html";
+let homeUrl = window.location.origin + "/securechat/home";
 
 window.onload = function (e) {
   let token = localStorage.getItem("secret-chat-token");
