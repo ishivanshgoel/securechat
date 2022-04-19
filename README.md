@@ -1,6 +1,6 @@
 # Secure Chat
 End-2-end encrypted chat application using RSA algorithm.
-- <a href="https://ishivanshgoel.github.io/securechat-app/">Backend - https://ishivanshgoel.github.io/securechat-app/</a>
+- <a href="https://github.com/ishivanshgoel/securechat-app/">Backend - https://github.com/ishivanshgoel/securechat-app/</a>
 
 ## Overview
 End-to-end encrypted messaging means that the users within that specific chat can only read messages sent between two people. 
