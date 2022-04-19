@@ -47,7 +47,7 @@ function onSubmit(event) {
       let keys = res.keys;
       let dataStr =
         "data:text/json;charset=utf-8," +
-        encodeURIComponent(JSON.stringify(keys, undefined, 2));
+        encodeURIComponent(JSON.stringify(keys, undefined, 2).replace(/\\n/g, ''));
       localStorage.setItem("secret-chat-key", keys.privateKey); // save your private key
       localStorage.setItem("secret-chat-key-1", keys.publicKey); // save your public key
       let downloadAnchorNode = document.createElement("a");
